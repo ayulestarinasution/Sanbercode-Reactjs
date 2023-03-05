@@ -1,13 +1,17 @@
-import './App.css';
+import './tugas8.css';
+import React from 'react';
+import Welcome from './tugas7/tugas7';
+import Data from './tugas8/tugas8';
 
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <div id="container"></div>
-     <h1>Hai, saya ayu lestari</h1>
-     <p> saya sudah berhasil install react</p>
-    </div>
+    <>
+    
+    <Welcome/>
+    <Data name="Ayu Lestari Nasution" email="ayulestarinasution848@gmail.com" batch="36"/>
+    </>
+     
   );
 }
 
