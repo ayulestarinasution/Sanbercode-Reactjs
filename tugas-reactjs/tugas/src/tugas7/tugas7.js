@@ -1,6 +1,6 @@
 import React from "react"
 
-function Welcome(props){
+function Tugas7(props){
     return(
         <div class="container">  
         <h1>Hai, saya ayu lestari</h1>
@@ -8,4 +8,4 @@ function Welcome(props){
     </div>
     );
 }
-export default Welcome;
+export default Tugas7;
